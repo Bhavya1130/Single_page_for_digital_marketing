@@ -1,0 +1,92 @@
+h1 {
+    color: #FF8400;
+}
+
+.sec1 {
+    height: 350px;
+    overflow: hidden;
+    background-color: #944f07;;
+}
+
+.row {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    /* width: 50%; */
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.overview div p img {
+    height: 50px;
+    width : 50px;
+}
+
+.sec2_1 {
+    overflow: hidden;
+    width: 70%;
+}
+
+.sec2_2 {
+    overflow: hidden;
+    width: 30%;
+}
+
+.sec3 {
+    overflow: hidden;
+    width: 30%;
+    padding: 2%;
+}
+
+.sec3 p {
+    background-color:#FF8400;
+    padding: 2%;
+    box-shadow: 100%;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.highlights p, .instru h1 {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.instructor img{
+    height: 50px;
+    width: 50px;
+    padding-left: -2%;
+}
+
+.certificate {
+    padding: 2%;
+}
+
+.checked {
+    color: #FF8400;
+}
+
+@media screen and (max-width: 500px){
+    .column {
+        width: 100%;
+        padding: 10%;
+    }
+
+    .card p img {
+        height: 110px;
+        width: 130px;
+    }
+    /* .course span {
+        width: 60%;
+    }
+
+    .course img {
+        width: 40%;
+    } */
+}
